@@ -1,0 +1,154 @@
+header {
+    font-size: 16px;
+
+    padding: 0 0 15px 0;
+
+    background-color: #fff;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+}
+
+.black-bar {
+    padding: 20px 0 20px 0;
+
+    color: #fff;
+    background-color: #00122f;
+}
+
+.header-main-title {
+    all: unset;
+}
+
+.header-anchor {
+    text-decoration: underline;
+}
+
+.header-date-time {
+    float: right;
+}
+
+.left-header {
+    padding: 40px 0 0 0;
+}
+
+.right-header {
+    padding: 36px 0 0 0;
+}
+
+.logo-header,
+.city-selector,
+.weather-viewer,
+.search-form {
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+
+.city-selector {
+    position: relative;
+
+    margin: 2px 0 0 57px;
+
+    color: #448ccb;
+}
+
+.city-selector span {
+    border-bottom: 1px dashed #448ccb;
+}
+
+.city-selector span::after {
+    position: absolute;
+    top: -4px;
+    left: 64px;
+
+    content: url('img/header-pics/icons/city-arrow-button-icon.png');
+}
+
+
+
+.weather-viewer {
+    line-height: 20px;
+
+    margin: 0 38px 0 0;
+    padding: 2px 0 0 40px;
+
+    color: #91919f;
+    background-image: url('img/header-pics/icons/weather-icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+
+/* стили поисковой формы */
+
+.search-form {
+    position: relative;
+    padding: 3px 0 0 0;
+}
+
+
+.search-button,
+.search-box {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.search-box {
+    font-size: 14px;
+
+    width: 320px;
+    height: 45px;
+    padding: 0 0 0 22px;
+
+    border-radius: 25px;
+    background: #f3f3f3;
+}
+
+
+.search-button {
+    position: absolute;
+    top: 11px;
+    right: 13px;
+
+    width: 26px;
+    height: 26px;
+
+    cursor: pointer;
+
+    background: #f3f3f3;
+    background: url('img/header-pics/icons/search-icon.png');
+}
+
+.nav-menu-container {
+    margin: 35px 0 0 0;
+}
+
+.navigation-menu {
+    list-style: none;
+}
+
+.navigation-item {
+    position: relative;
+
+    display: inline-block;
+
+    margin: 0 34px 0 0;
+}
+
+
+.navigation-item::before {
+    position: absolute;
+    left: -25px;
+
+    content: '/';
+
+    color: #f0f0f1;
+
+    size: 16px;
+}
+
+.navigation-item:first-child:before {
+    content: '';
+}
