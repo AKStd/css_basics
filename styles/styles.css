@@ -65,7 +65,7 @@ a {
 }
 
 /*убираем стили списка и отступы*/
-ul {
+.list-reset {
 	padding-left: 0; /* */
 	list-style: none; /* */
 }

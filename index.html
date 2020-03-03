@@ -12,7 +12,6 @@
 	</head>
 
 	<body>
-
 		<!-- хэдер -->
 		<header>
 			<div class="black-bar">
@@ -25,33 +24,30 @@
 				</div>
 			</div>
 
-			<div class="container clearfix">
+			<div class="container header-container clearfix">
 				<!-- лого -->
-				<div class="left-header">
 					<img class="logo-header" src="img/header-pics/icons/logo.png" alt="логотип &#34;Новостое агентсво&#34;">
 
 				<!-- выбор города -->	
 					<a class="city-selector" href="#">
 						<span>Москва</span>
 					</a>
-				</div>
 
-				<div class="right right-header">
-					<!-- погода -->	
-					<span class="weather-viewer">+22&deg;C</span>									
 					<!-- форма поиска-->
 					<form class="search-form" name="search-form">
 	  					<input class="search-box" type="text" placeholder="Поиск по сайту">
 
 	  					<button class="search-button" type="submit" aria-label="Поиск"></button>
 					</form>	
-				 </div>
+
+					<!-- погода -->	
+					<span class="weather-viewer">+22&deg;C</span>						
 			</div>
 
 			<div class="container">
 				<!-- Меню навигации  -->
 				<nav class="nav-menu-container clearfix">
-					<ul class="navigation-menu">
+					<ul class="navigation-menu list-reset">
 						<li class="navigation-item"><a href="#">Главная</a></li>
 						<li class="navigation-item"><a href="#">Политика</a></li>
 						<li class="navigation-item"><a href="#">Общество</a></li>
@@ -72,7 +68,7 @@
 				<section class="column-left">
 						<h2 class="today-news">Новости дня</h2>
 
-						<ul class="today-news-list">
+						<ul class="today-news-list list-reset">
 							<li class="today-news-list-item clearfix">
 								<article class="today-news-item">
 									<h3 class="today-news-item-title">
@@ -80,19 +76,16 @@
 									</h3>
 
 									<div class="article-props">
-										<div class="#">
-											<a href="#">/ ЧМ по футболу</a>
-										</div>
+										<a href="#" class="article-category">ЧМ по футболу</a>
 
-										<div class="right">
-											<time class="column-left-item-date" datetime="2019-06-19T10:48">10:48</time>
 
-											<span class="column-left-item-comment-counter">15</span>
-										</div>
+										<time class="column-left-item-date" datetime="2019-06-19T10:48">10:48</time>
+
+										<span class="column-left-item-comment-counter">15</span>
 									</div>
 								</article>
 							</li>
-
+<!--
 							<li class="today-news-list-item clearfix">
 								<article class="today-news-item">
 									<h3 class="today-news-item-title">
@@ -101,7 +94,7 @@
 
 									<div class="article-props">
 										<div class="#">
-											<a href="#">/ Политика</a>
+											<a href="#">Политика</a>
 										</div>
 
 										<div class="right">
@@ -112,6 +105,7 @@
 									</div>
 								</article>
 							</li>
+-->
 <!--
 							<li class="today-news-list-item clearfix">
 								<article class="today-news-item">
@@ -121,7 +115,7 @@
 
 									<div class="article-props">
 										<div class="#">
-											<a href="#">/ Транспорт</a>
+											<a href="#">Транспорт</a>
 										</div>
 
 										<div class="right">
@@ -141,7 +135,7 @@
 
 									<div class="article-props">
 										<div class="#">
-											<a href="#">/ Погода</a>
+											<a href="#">Погода</a>
 										</div>
 
 										<div class="right">
@@ -161,7 +155,7 @@
 
 									<div class="article-props">
 										<div class="left">
-											<a href="#">/ Транспорт</a>
+											<a href="#">Транспорт</a>
 										</div>
 
 										<div class="right">
@@ -181,7 +175,7 @@
 
 									<div class="article-props">
 										<div class="left">
-											<a href="#">/ ЧМ по футболу</a>
+											<a href="#">ЧМ по футболу</a>
 										</div>
 
 										<div class="right">
@@ -296,7 +290,7 @@
 						<time datetime="2019-06-19T10:48">19 Июня 2019 10:48</time>
 					</article>
 
-					<ul class="special-news-list">
+					<ul class="special-news-list list-reset">
 							<li class="special-news-item">
 								<h3 class="special-news-item-title">
 									<a class="special-news-item-title-anchor" href="#">В Турции нашли альтернативу из-за отказа США поставить F-35</a>
@@ -340,7 +334,7 @@
 		<footer>
 			<div class="container">
 				<div class="links">
-					<ul class="footer-links-list">
+					<ul class="footer-links-list list-reset">
 						<li><a class="footer-links-item" href="#">Главная</a></li>
 						<li><a class="footer-links-item" href="#">Политика</a></li>
 						<li><a class="footer-links-item" href="#">Общество</a></li>
@@ -355,7 +349,7 @@
 
 				<div class="about-us">
 					<img class="footer-logo" src="img/footer-pics/icons/logo-no-background.png" alt="логотип &#34;Новостое агентсво&#34;">
-					<ul class="footer-about-us-list">
+					<ul class="footer-about-us-list list-reset">
 						<li><a class="about-us-item" href="#">Об агентстве</a></li>
 						<li><a class="about-us-item" href="#">Контакты</a></li>
 						<li><a class="about-us-item" href="#">Опубликовать новость</a></li>
@@ -363,7 +357,7 @@
 				</div>
 
 				<div class="social-links">
-					<ul class="footer-social-links-list">
+					<ul class="footer-social-links-list list-reset">
 						<li class="social-links-item"><a class="social-links-pic-vk" href="#" aria-label="мы в vk.com"></a></li>
 						<li class="social-links-item"><a class="social-links-pic-facebook" href="#" aria-label="мы в facebook"></a></li>
 						<li class="social-links-item"><a class="social-links-pic-twitter" href="#" aria-label="мы в twitter"></a></li>
@@ -371,7 +365,7 @@
 					</ul>
 
 					<address class="contact-us">
-						<ul class="contact-us-list">
+						<ul class="contact-us-list list-reset">
 							<li class="contact-us-list-item"><a href="tel:88005558628"> +7(499)995-55-55</a></li>
 							<li class="contact-us-list-item"><a href="mailto:info@agency.ru">info&#64;agency.ru</a></li>
 						</ul>
@@ -381,7 +375,5 @@
 
 			<p class="copy-rights">&#64; новостное агентство. 2017-2018 все права защищены</p>
 		</footer>
-
-
 	</body>
 </html>
