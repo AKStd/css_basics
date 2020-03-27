@@ -4,8 +4,7 @@ header {
     padding: 0 0 15px 0;
 
     background-color: #fff;
-
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .07);
 }
 
 .black-bar {
@@ -27,28 +26,28 @@ header {
     float: right;
 }
 
-.header-container{
+.header-container {
     padding: 36px 0 0 0;
 }
 
 .logo-header,
 .city-selector,
 .weather-viewer,
-.search-form {
+.search-form,
+.header-date,
+.header-time {
     display: inline-block;
 
     vertical-align: middle;
-
 }
 
 .logo-header {
-    padding: 4px 0 0 0px;
+    padding: 4px 0 0 0;
 }
 
 
 .search-form {
     float: right;
-
 }
 
 .city-selector {
@@ -68,16 +67,32 @@ header {
     border-bottom: 1px dashed #448ccb;
 }
 
+
+.header-date {
+    margin: 0 0 0 45px;
+    padding: 4px 0 0 0;
+
+    color: #91919f;
+}
+
+.header-time {
+    margin: 0 0 0 24px;
+    padding: 4px 0 0 25px;
+
+    color: #91919f;
+    background-image: url('img/header-pics/icons/clock-icon-hearder.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
 .weather-viewer {
     line-height: 20px;
 
-    float: right;
-
-    margin: 15px 45px 0 0;
-    padding: 0px 0 0 40px;
+    margin: 0 0 0 25px;
+    padding: 4px 0 0 35px;
 
     color: #91919f;
-    background-image: url("img/header-pics/icons/weather-icon.png");
+    background-image: url('img/header-pics/icons/weather-icon.png');
     background-repeat: no-repeat;
     background-position: left center;
 }
@@ -87,6 +102,7 @@ header {
 
 .search-form {
     position: relative;
+
     padding: 3px 0 0 0;
 }
 
@@ -121,7 +137,7 @@ header {
     cursor: pointer;
 
     background: #f3f3f3;
-    background: url("img/header-pics/icons/search-icon.png");
+    background: url('img/header-pics/icons/search-icon.png');
 }
 
 .nav-menu-container {
