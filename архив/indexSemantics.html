@@ -12,6 +12,7 @@
 	</head>
 
 	<body>
+
 		<!-- хэдер -->
 		<header>
 			<div class="black-bar">
@@ -24,40 +25,33 @@
 				</div>
 			</div>
 
-			<div class="container header-container clearfix">
+			<div class="container clearfix">
 				<!-- лого -->
+				<div class="left left-header">
 					<img class="logo-header" src="img/header-pics/icons/logo.png" alt="логотип &#34;Новостое агентсво&#34;">
 
 				<!-- выбор города -->	
 					<a class="city-selector" href="#">
 						<span>Москва</span>
 					</a>
+				</div>
 
-					<time class="header-date" datetime="2019-06-19">
-						19 июня, вторник
-					</time>
-
-					<time class="header-time" datetime="2019-06-19T10:48">
-						10:48
-					</time>
-
+				<div class="right right-header">
 					<!-- погода -->	
-					<span class="weather-viewer">+22&deg;C</span>
-
-
+					<span class="weather-viewer">+22&deg;C</span>									
 					<!-- форма поиска-->
 					<form class="search-form" name="search-form">
 	  					<input class="search-box" type="text" placeholder="Поиск по сайту">
 
 	  					<button class="search-button" type="submit" aria-label="Поиск"></button>
 					</form>	
-						
+				 </div>
 			</div>
 
 			<div class="container">
 				<!-- Меню навигации  -->
-				<nav class="nav-menu-container clearfix">
-					<ul class="navigation-menu list-reset">
+				<nav class="menu-container clearfix">
+					<ul class="navigation-menu">
 						<li class="navigation-item"><a href="#">Главная</a></li>
 						<li class="navigation-item"><a href="#">Политика</a></li>
 						<li class="navigation-item"><a href="#">Общество</a></li>
@@ -78,7 +72,7 @@
 				<section class="column-left">
 						<h2 class="today-news">Новости дня</h2>
 
-						<ul class="today-news-list list-reset">
+						<ul class="today-news-list">
 							<li class="today-news-list-item clearfix">
 								<article class="today-news-item">
 									<h3 class="today-news-item-title">
@@ -86,25 +80,8 @@
 									</h3>
 
 									<div class="article-props">
-										<a href="#" class="article-category">ЧМ по футболу</a>
-
-
-										<time class="column-left-item-date" datetime="2019-06-19T10:48">10:48</time>
-
-										<span class="column-left-item-comment-counter">15</span>
-									</div>
-								</article>
-							</li>
-<!--
-							<li class="today-news-list-item clearfix">
-								<article class="today-news-item">
-									<h3 class="today-news-item-title">
-										<a class="today-news-item-title-anchor" href="#">&#171;Нафтогаз&#187;: суд разрешил заморозить активы &#171;Газпрома&#187; <br>в Великобритании</a>
-									</h3>
-
-									<div class="article-props">
-										<div class="#">
-											<a href="#">Политика</a>
+										<div class="left">
+											<a href="#">/ ЧМ по футболу</a>
 										</div>
 
 										<div class="right">
@@ -115,8 +92,27 @@
 									</div>
 								</article>
 							</li>
--->
-<!--
+
+							<li class="today-news-list-item clearfix">
+								<article class="today-news-item">
+									<h3 class="today-news-item-title">
+										<a class="today-news-item-title-anchor" href="#">&#171;Нафтогаз&#187;: суд разрешил заморозить активы &#171;Газпрома&#187; <br>в Великобритании</a>
+									</h3>
+
+									<div class="article-props">
+										<div class="left">
+											<a href="#">/ Политика</a>
+										</div>
+
+										<div class="right">
+											<time class="column-left-item-date" datetime="2019-06-19T10:48">10:48</time>
+
+											<span class="column-left-item-comment-counter">15</span>
+										</div>
+									</div>
+								</article>
+							</li>
+
 							<li class="today-news-list-item clearfix">
 								<article class="today-news-item">
 									<h3 class="today-news-item-title">
@@ -124,8 +120,8 @@
 									</h3>
 
 									<div class="article-props">
-										<div class="#">
-											<a href="#">Транспорт</a>
+										<div class="left">
+											<a href="#">/ Транспорт</a>
 										</div>
 
 										<div class="right">
@@ -144,8 +140,8 @@
 									</h3>
 
 									<div class="article-props">
-										<div class="#">
-											<a href="#">Погода</a>
+										<div class="left">
+											<a href="#">/ Погода</a>
 										</div>
 
 										<div class="right">
@@ -165,7 +161,7 @@
 
 									<div class="article-props">
 										<div class="left">
-											<a href="#">Транспорт</a>
+											<a href="#">/ Транспорт</a>
 										</div>
 
 										<div class="right">
@@ -185,7 +181,7 @@
 
 									<div class="article-props">
 										<div class="left">
-											<a href="#">ЧМ по футболу</a>
+											<a href="#">/ ЧМ по футболу</a>
 										</div>
 
 										<div class="right">
@@ -196,7 +192,6 @@
 									</div>
 								</article>
 							</li>
-						-->
 						</ul>
 
 						<a class="all-news" href="#">Все новости</a>
@@ -300,7 +295,7 @@
 						<time datetime="2019-06-19T10:48">19 Июня 2019 10:48</time>
 					</article>
 
-					<ul class="special-news-list list-reset">
+					<ul class="special-news-list">
 							<li class="special-news-item">
 								<h3 class="special-news-item-title">
 									<a class="special-news-item-title-anchor" href="#">В Турции нашли альтернативу из-за отказа США поставить F-35</a>
@@ -344,7 +339,7 @@
 		<footer>
 			<div class="container">
 				<div class="links">
-					<ul class="footer-links-list list-reset">
+					<ul class="footer-links-list">
 						<li><a class="footer-links-item" href="#">Главная</a></li>
 						<li><a class="footer-links-item" href="#">Политика</a></li>
 						<li><a class="footer-links-item" href="#">Общество</a></li>
@@ -359,7 +354,7 @@
 
 				<div class="about-us">
 					<img class="footer-logo" src="img/footer-pics/icons/logo-no-background.png" alt="логотип &#34;Новостое агентсво&#34;">
-					<ul class="footer-about-us-list list-reset">
+					<ul class="footer-about-us-list">
 						<li><a class="about-us-item" href="#">Об агентстве</a></li>
 						<li><a class="about-us-item" href="#">Контакты</a></li>
 						<li><a class="about-us-item" href="#">Опубликовать новость</a></li>
@@ -367,7 +362,7 @@
 				</div>
 
 				<div class="social-links">
-					<ul class="footer-social-links-list list-reset">
+					<ul class="footer-social-links-list">
 						<li class="social-links-item"><a class="social-links-pic-vk" href="#" aria-label="мы в vk.com"></a></li>
 						<li class="social-links-item"><a class="social-links-pic-facebook" href="#" aria-label="мы в facebook"></a></li>
 						<li class="social-links-item"><a class="social-links-pic-twitter" href="#" aria-label="мы в twitter"></a></li>
@@ -375,7 +370,7 @@
 					</ul>
 
 					<address class="contact-us">
-						<ul class="contact-us-list list-reset">
+						<ul class="contact-us-list">
 							<li class="contact-us-list-item"><a href="tel:88005558628"> +7(499)995-55-55</a></li>
 							<li class="contact-us-list-item"><a href="mailto:info@agency.ru">info&#64;agency.ru</a></li>
 						</ul>
@@ -385,5 +380,7 @@
 
 			<p class="copy-rights">&#64; новостное агентство. 2017-2018 все права защищены</p>
 		</footer>
+
+
 	</body>
 </html>

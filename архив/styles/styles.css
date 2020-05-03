@@ -65,7 +65,15 @@ a {
 }
 
 /*убираем стили списка и отступы*/
-.list-reset {
+ul {
 	padding-left: 0; /* */
 	list-style: none; /* */
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }

@@ -4,7 +4,8 @@ header {
     padding: 0 0 15px 0;
 
     background-color: #fff;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, .07);
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
 }
 
 .black-bar {
@@ -14,11 +15,11 @@ header {
     background-color: #00122f;
 }
 
-.header-main-title {
+h1 {
     all: unset;
 }
 
-.header-anchor {
+h1 a {
     text-decoration: underline;
 }
 
@@ -26,70 +27,51 @@ header {
     float: right;
 }
 
-.header-container {
+.left-header {
+    padding: 40px 0 0 0;
+}
+
+.right-header {
     padding: 36px 0 0 0;
 }
 
 .logo-header,
 .city-selector,
 .weather-viewer,
-.search-form,
-.header-date,
-.header-time {
+.search-form {
     display: inline-block;
 
     vertical-align: middle;
 }
 
-.logo-header {
-    padding: 4px 0 0 0;
-}
-
-
-.search-form {
-    float: right;
-}
 
 .city-selector {
     position: relative;
 
-    margin: 0 0 0 57px;
-    padding: 4px 15px 0 0;
+    margin: 2px 0 0 57px;
 
     color: #448ccb;
-    background-image: url('img/header-pics/icons/city-arrow-button-icon.png');
-    background-repeat: no-repeat;
-    background-position: right center;
 }
-
 
 .city-selector span {
     border-bottom: 1px dashed #448ccb;
 }
 
+.city-selector span::after {
+    position: absolute;
+    top: -4px;
+    left: 64px;
 
-.header-date {
-    margin: 0 0 0 45px;
-    padding: 4px 0 0 0;
-
-    color: #91919f;
+    content: url('img/header-pics/icons/city-arrow-button-icon.png');
 }
 
-.header-time {
-    margin: 0 0 0 24px;
-    padding: 4px 0 0 25px;
 
-    color: #91919f;
-    background-image: url('img/header-pics/icons/clock-icon-hearder.png');
-    background-repeat: no-repeat;
-    background-position: left center;
-}
 
 .weather-viewer {
     line-height: 20px;
 
-    margin: 0 0 0 25px;
-    padding: 4px 0 0 38px;
+    margin: 0 38px 0 0;
+    padding: 2px 0 0 40px;
 
     color: #91919f;
     background-image: url('img/header-pics/icons/weather-icon.png');
@@ -102,7 +84,6 @@ header {
 
 .search-form {
     position: relative;
-
     padding: 3px 0 0 0;
 }
 
@@ -140,7 +121,7 @@ header {
     background: url('img/header-pics/icons/search-icon.png');
 }
 
-.nav-menu-container {
+nav {
     margin: 35px 0 0 0;
 }
 
