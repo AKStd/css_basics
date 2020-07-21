@@ -9,63 +9,71 @@
 
     <body>
         <div class="container">
-            <a href="index.html">Назад</a>
+            <a class="return-anchor" href="index.html">Назад</a>
 
-            <h1>Информация о курсе</h1>
+            <h1 class="main-heading ">Информация о курсе</h1>
+            <div class="course-about">
+                <h2 class="section-heading">
+                    Как работать на курсе?
+                </h2>
 
-            <h2>Как работать на курсе?</h2>
+                <ol class="list">
+                    <li class="list-item">
+                        <a href="#table-tags">Изучить теги</a>
+                    </li>
+                    <li class="list-item">Попрактиковаться</li>
+                    <li class="list-item">Выполнить домашнее задание</li>
+                </ol>
+            </div>
 
-            <ol>
-                <li>
-                    <a href="#">Изучить теги</a>
-                </li>
-                <li>Попрактиковаться</li>
-                <li>Сделать домашнее задание</li>
-            </ol>
-
-            <section class="about-course">
-                <h2>Описание курса</h2>
+            <div class="course-summary">
+                <h2 class="section-heading">
+                    Описание курса
+                </h2>
             
-                <p>В первой части кусра вы познакомитесь со стандартами WEB 2.0, научитесь работать с макетами и форматировать код, овсоите адаптивную верстку, а <strong>по итогу </strong> - сможете создавать быстрые и удобные сайты, которые <strong>точно понравятся пользователям</strong>.</p>
-                <p>Вы поймете назначение <em>основных тегов HTML,</em> сможете <s>без усилий</s> стилизовать и размещать элементы с помощью css и сверстаете свой первый макет.</p> 
+                <p class="paragraph">В первой части кусра вы познакомитесь со стандартами WEB 2.0, научитесь работать с макетами и форматировать код, овсоите адаптивную верстку, а <strong>по итогу </strong> - сможете создавать быстрые и удобные сайты, которые <strong>точно понравятся пользователям</strong>.</p>
+                <p class="paragraph">Вы поймете назначение <em>основных тегов HTML,</em> сможете <s>без усилий</s> стилизовать и размещать элементы с помощью css и сверстаете свой первый макет.</p> 
                 
-                <figure>
-                    <img src="img/2.7_site1.jpeg" alt="макерт дизайна курсовой работы (сайта)" width="300">
+                <figure  class="picture-block">
+                    <img class="picture-block-img" src="img/2.7_site1.jpeg" alt="макерт дизайна курсовой работы (сайта)">
 
                     <figcaption>Курсовая работа</figcaption> 
                 </figure>
 
-                <p>Вторая часть курса сделает из вас настоящего мастера. Вы изучите сборщики проектов, научитесь верстать email-рассыслки, разберетесь с анимацией на сайте.</p>
-                <p>Помимо этого, вы сверстаете фрагмент из интернет-магазина - главную страницу, страницу каталога и страницу товара!</p>
+                <p class="paragraph">Вторая часть курса сделает из вас настоящего мастера. Вы изучите сборщики проектов, научитесь верстать email-рассыслки, разберетесь с анимацией на сайте.</p>
+                <p class="paragraph">Помимо этого, вы сверстаете фрагмент из интернет-магазина - главную страницу, страницу каталога и страницу товара!</p>
                 
-                <figure>
-                    <img src="img/2.7_site2.jpeg" alt="макерт дизайна Димломного проекта (сайта)" width="300">
+                <figure class="picture-block">
+                    <img class="picture-block-img" src="img/2.7_site2.jpeg" alt="макерт дизайна Димломного проекта (сайта)">
 
                     <figcaption>Димпломный проект</figcaption> 
                 </figure>
-            </section>
-            
-            <h2>Программа курса</h2>
+            </div>
 
-            <ul>
-                <li>Основы вёрстки</li>
-                <li>HTML</li>
-                <li>Формы и медиаэлементы</li>
-                <li>Доступность</li>
-                <li>Работа с макетом</li>
-                <li>CSS</li>
-                <li>Практика. Flexbox</li>
-                <li>Адаптивность и кроссбраузероность</li>
-                <li>JavaScript для верстальщика</li>
-                <li>Бонус. Практикум</li>
-                <li>Работа с хостингом</li>
-                <li>Курсовая. Мини-проект в протфолио</li>
-            </ul>
+            <div class="course-program">
+                <h2 class="section-heading">
+                    Программа курса
+                </h2>
 
-            <section class="tags-table">
-                
-                <table>
-                    <caption>Таблица тегов</caption>
+                <ul class="list">
+                    <li class="list-item">Основы верстки</li>
+                    <li class="list-item">HTML</li>
+                    <li class="list-item">Формы и медиаэлементы</li>
+                    <li class="list-item">Доступность</li>
+                    <li class="list-item">Работа с макетом</li>
+                    <li class="list-item">CSS</li>
+                    <li class="list-item">Практика. Flexbox</li>
+                    <li class="list-item">Адаптивность и кроссбраузероность</li>
+                    <li class="list-item">JavaScript для верстальщика</li>
+                    <li class="list-item">Бонус. Практикум</li>
+                    <li class="list-item">Работа с хостингом</li>
+                    <li class="list-item">Курсовая. Мини-проект в портфолио</li>
+                </ul>
+            </div>
+
+            <div class="table-block">
+                <table class="table-tags">
+                    <caption class="table-caption">Таблица тегов</caption>
                     <tr>
                         <th class="table-item" colspan="2">Блочные</th>
                         <th class="table-item" colspan="2">Строчные</th>
@@ -100,10 +108,10 @@
                     </tr>
 
                     <tr>
-                        <th class="table-item" colspan="4">Теперь Вы знаете основные HTML-теги</th>
+                        <th class="table-item-final" colspan="4">Теперь Вы знаете основные HTML-теги</th>
                     </tr>                
                 </table>
-            </section> 
+            </div>
         </div>
     </body>
 </html>

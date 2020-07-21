@@ -82,5 +82,89 @@ a {
     width: 1170px;
     margin: 0 auto;
     padding: 30px 0 30px 0;
-    
+
+}
+
+.main-heading {
+    margin: 80px 0 85px 0;
+	color: #222020;
+	padding: 0 0 0 100px;
+	font-size: 48px;
+}
+
+.return-anchor{
+    padding: 0 0 0 45px;
+	background-image: url(../img/return.png);
+	background-size: 25px auto;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.section-heading {
+	padding: 0 0 0 180px;
+	color: #2f1ce4;
+	font-size: 36px;
+	margin: 0 0 20px 0;
+}
+
+.course-about,
+.course-summary,
+.course-program {
+	width: 1150px;
+	font-size: 18px;
+
+
+}
+
+/* теги для секции о курсе */
+
+.list {
+	padding: 0 0 0 200px;
+	margin: 0 0 75px 0;
+}
+
+.list-item {
+	margin: 10px 0 0 0;
+}
+
+.paragraph {
+	padding: 0 0 0 180px;
+	margin: 20px 0 0 0;
+	line-height: 30px;
+}
+
+.picture-block {
+	padding: 0 0 0 300px;
+	text-align: center;
+	display: inline-block;
+	margin: 50px 0 50px 0;
+}
+.picture-block-img{
+	max-width: 400px;
+	align-self: center;
+}
+
+
+/* теги для таблицы */
+.table-block {
+    margin-top: 100px;
+}
+
+.table-caption{
+    padding: 20px;
+}
+
+.table-tags {
+	border: 1px solid #a0a0a0;
+	border-collapse: collapse;
+	
+}
+
+.table-item, .table-item-final {
+	border: 1px solid #a0a0a0;
+	padding: 10px;
+}
+
+.table-item-final{
+    color: #2f1ce4;
 }
