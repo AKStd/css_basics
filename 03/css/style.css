@@ -114,6 +114,15 @@ a {
     background-size: 25px auto;
 }
 
+
+.table-anchor {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+}
+
+
+
 .section-heading {
     font-size: 36px;
 
@@ -131,6 +140,7 @@ a {
     width: 1150px;
 }
 
+
 /* теги для секции о курсе */
 
 .list {
@@ -147,16 +157,14 @@ a {
 .picture-block {
     display: inline-block;
 
-    margin: 50px 0 50px 0;
+    margin: 50px auto;
     padding: 0 0 0 200px;
 
     text-align: center;
 }
 .picture-block-img {
     max-width: 400px;
-    margin: 0 0 0 50px;
 
-    align-self: center;
 }
 
 
