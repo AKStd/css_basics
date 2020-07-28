@@ -1,0 +1,195 @@
+@font-face {
+	font-family: 'Graphik LCG';
+	src: url('fonts/GraphikLCG-Medium.woff2') format('woff2'),
+		url('fonts/GraphikLCG-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('fonts/Gilroy-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+		url('fonts/Gilroy-ExtraBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
+		url('fonts/Gilroy-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+    color: inherit;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    background-color: #222020;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-heading {
+    font-family: ‘Graphik LCG’, sans-serif;
+
+    margin: 0 0 30px 0;
+
+    color: #fff;
+}
+
+.download-course-program {
+    display: inline-block;
+
+    margin: 0 10px 0 0;
+    padding: 20px;
+
+    color: #fff;
+    border: 3px solid #2f1ce4;
+    background-color: #2f1ce4;
+}
+
+.about-course-anchor {
+    display: inline-block;
+
+    padding: 20px;
+
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+.main-heading {
+    font-size: 48px;
+
+    margin: 100px 0 0 0;
+    padding: 0 0 0 100px;
+
+    color: #222020;
+}
+
+.return-anchor {
+    padding: 0 0 0 45px;
+
+    background-image: url(../img/return.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 25px auto;
+}
+
+
+.table-anchor {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+}
+
+
+
+.section-heading {
+    font-size: 36px;
+
+    margin: 100px 0 25px 0;
+    padding: 0 0 0 180px;
+
+    color: #2f1ce4;
+}
+
+.course-about,
+.course-summary,
+.course-program {
+    font-size: 18px;
+
+    width: 1150px;
+}
+
+
+/* теги для секции о курсе */
+
+.list {
+    font-size: 18px;
+
+    padding: 0 0 0 200px;
+}
+
+.paragraph {
+    margin: 20px 0 0 0;
+    padding: 0 0 0 180px;
+}
+
+.picture-block {
+    display: block;
+
+    margin: 50px auto;
+    padding: 0 0 0 200px;
+
+    text-align: center;
+}
+.picture-block-img {
+    max-width: 400px;
+
+}
+
+
+/* теги для таблицы */
+.table-block {
+    margin-top: 100px;
+}
+
+.table-caption {
+    padding: 20px;
+}
+
+.table-tags {
+    border-collapse: collapse;
+
+    border: 1px solid #a0a0a0;
+}
+
+.table-item,
+.table-item-final {
+    padding: 10px;
+
+    border: 1px solid #a0a0a0;
+}
+
+.table-item-final {
+    color: #2f1ce4;
+}
