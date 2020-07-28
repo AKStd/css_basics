@@ -155,7 +155,7 @@ a {
 }
 
 .picture-block {
-    display: inline-block;
+    display: block;
 
     margin: 50px auto;
     padding: 0 0 0 200px;
