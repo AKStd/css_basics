@@ -193,3 +193,10 @@ a {
 .table-item-final {
     color: #2f1ce4;
 }
+
+
+/* стили для модулей */
+
+.index-anchor{
+    display: block;
+}

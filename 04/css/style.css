@@ -63,7 +63,7 @@ a {
 }
 
 .main-content-heading {
-    font-family: ‘Graphik LCG’, sans-serif;
+    font-family: 'Graphik LCG', sans-serif;
 
     margin: 0 0 30px 0;
 
@@ -96,6 +96,10 @@ a {
     padding: 30px 0 30px 0;
 }
 
+.position-relative{
+    position: relative;
+}
+
 .main-heading {
     font-size: 48px;
 
@@ -103,6 +107,9 @@ a {
     padding: 0 0 0 100px;
 
     color: #222020;
+
+ 
+
 }
 
 .return-anchor {
@@ -192,4 +199,110 @@ a {
 
 .table-item-final {
     color: #2f1ce4;
+}
+
+
+/* стили для модулей */
+
+.index-anchor {
+    display: block;
+    font-size: 40px;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.modules-heading {
+    margin-bottom: 90px;
+    font-weight: bold;
+}
+
+.card {
+    display: inline-block;
+    width: 45%;
+    /* по шаблону карточки одинакового размера, контент у них разный
+    подозреваю, что явное указане высоты - не оч хорошо
+    как сделать их одинаковый высоты несмотря на контент, не знаю:((*/
+    height: 500px;
+    border: 1px solid #000;
+    margin-bottom: 60px;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  .number {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 48px;
+    color: #eaeaea;
+  }
+  
+  .module-card {
+    width: 1170px; /* для примера */
+    margin: 0 auto;
+  }
+  
+  .right {
+    margin-left: 5%;
+  }
+  
+
+  .card-img {
+      width: 100%;
+  }
+
+  .card-heading{
+      font-size: 36px;
+      margin: 30px 50px;
+      color: #2f1ce4;
+  }
+
+  .card-list{
+      display: block;
+      font-size: 16px;
+      margin-top: 30px;    
+  }
+
+  .card-list li{
+    font-size: 16px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    list-style-type: none;
+  }
+
+.button-container{
+    text-align: center;
+}
+
+  .card-more-button {
+    display: inline-block;
+    margin: 40px 0 auto;
+    padding: 30px 80px;
+
+    color: #2f1ce4;;
+    border: 3px solid #2f1ce4;
+}
+
+.shadow {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+} 
+
+/* footer{
+    position: relative;
+    height: 310px;
+    background: url(../img/footer.png); 
+    clear: both;
+} */
+
+footer{
+    margin-top: 400px;
+}
+
+footer img{
+    position: absolute;
+	left: 0;
+	bottom: 0;
+    width: 100%;
 }
